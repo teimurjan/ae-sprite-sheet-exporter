@@ -11,6 +11,21 @@ A powerful Adobe After Effects extension for exporting sprite sheets from compos
 - Export both sprite sheet image and metadata JSON
 - Clean temporary files management
 
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   pnpm install
+   ```
+3. Start the development server:
+   ```bash
+   pnpm dev
+   ```
+4. Open Adobe After Effects
+5. Navigate to `ae-example/After Effects/15 Free Animated Technical Icons.aep`
+6. The extension will be available in After Effects under Window > Extensions > Sprite Sheet Exporter
+
 ## How It Works
 
 ### After Effects Integration (`src/jsx/aeft`)
